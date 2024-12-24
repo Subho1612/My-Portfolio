@@ -1,0 +1,477 @@
+.contact-me .container .button, .about-sec .about-us button, .banner .button {
+  margin-top: 10px;
+  padding: 10px;
+  padding-inline: 25px;
+  border-radius: 8px;
+  font-size: 22px;
+  font-weight: 600;
+  background-color: #3c00c7;
+  color: white;
+  border-style: none;
+  transition: 0.5s;
+}
+
+.contact-me .container button:hover, .about-sec .about-us button:hover, .banner .button:hover {
+  background-color: white;
+  color: #3c00c7;
+}
+
+.contact-me .container .input-sec .massage, .contact-me .container .input-sec .email, .contact-me .container .input-sec .number, .contact-me .container .input-sec .name {
+  padding: 0.3rem;
+  padding-left: 1rem;
+  padding-right: 20rem;
+  border-radius: 0.7rem;
+  background-color: #824dff;
+  border-style: none;
+  color: white;
+}
+
+.nav-bar {
+  height: auto;
+  background-color: black;
+}
+
+.nav-bar .container {
+  margin: auto;
+}
+
+.nav-bar .nav {
+  background-color: #3c00c7;
+  color: white;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  border-radius: 50px;
+  border: 1.5px solid white;
+  padding-inline: 20px;
+}
+
+.nav-bar ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 600px;
+  height: 100%;
+}
+
+.nav-bar ul li {
+  list-style: none;
+}
+
+.nav-bar ul a {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+  position: relative;
+}
+
+.nav-bar ul a:after {
+  content: "";
+  position: absolute;
+  background-color: white;
+  width: 0%;
+  height: 3px;
+  transition: 0.3s;
+}
+
+.nav-bar ul a:hover {
+  color: #bcced8;
+}
+
+.nav-bar ul a:hover:after {
+  width: 100%;
+}
+
+.banner {
+  background-color: #000000;
+  padding-block: 45px;
+  color: white;
+}
+
+.banner p {
+  font-size: 32px;
+}
+
+.banner .typing {
+  color: #00d8ff;
+  font-size: 32px;
+  width: 0;
+  border-right: 0.05rem solid #00d8ff;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing steps(20, end) forwards infinite 7s;
+}
+
+.banner h1 {
+  font-size: 48px;
+}
+
+.banner .social-media {
+  font-size: 36px;
+}
+
+.banner .button {
+  padding-block: 0.45rem;
+}
+
+@keyframes typing {
+  0% {
+    width: 0%;
+  }
+  50% {
+    width: 63%;
+  }
+}
+.about-sec {
+  background-color: rgb(0, 0, 0);
+}
+
+.about-sec .about-us {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 50px;
+}
+
+.about-sec .about-us img {
+  width: 100%;
+  height: 100%;
+  padding: 30px;
+}
+
+.about-sec .about-us h1 {
+  font-size: 48px;
+  padding-left: 10px;
+}
+
+.about-sec .about-us p {
+  font-size: 20px;
+  padding-left: 10px;
+}
+
+.skill h1 {
+  font-size: 4.5rem;
+  font-weight: 400;
+  margin-bottom: 3.5;
+}
+
+.skill-sec {
+  padding-block: 2.5rem;
+}
+
+.skill-sec .bar {
+  height: 0.8rem;
+  margin-right: 3rem;
+}
+
+.html-progress {
+  background-color: #3c00c7;
+  animation: html-progress 2s;
+}
+
+@keyframes html-progress {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 95%;
+  }
+}
+.css-progress {
+  background-color: #3c00c7;
+  animation: css-progress 2s;
+}
+
+@keyframes css-progress {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+.sass-progress {
+  background-color: #3c00c7;
+  animation: sass-progress 2s;
+}
+
+@keyframes sass-progress {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 95%;
+  }
+}
+.boostrap-progress {
+  background-color: #3c00c7;
+  animation: boostrap-progress 2s;
+}
+
+@keyframes boostrap-progress {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+.js-progress {
+  background-color: #3c00c7;
+  animation: js-progress 2s;
+}
+
+@keyframes js-progress {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 85%;
+  }
+}
+.ts-progress {
+  background-color: #3c00c7;
+  animation: ts-progress 2s;
+}
+
+@keyframes ts-progress {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 85%;
+  }
+}
+.jq-progress {
+  background-color: #3c00c7;
+  animation: jq-progress 2s;
+}
+
+@keyframes jq-progress {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+.react-progress {
+  background-color: #3c00c7;
+  animation: react-progress 2s;
+}
+
+@keyframes react-progress {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+.git-progress {
+  background-color: #3c00c7;
+  animation: git-progress 2s;
+}
+
+@keyframes git-progress {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 80%;
+  }
+}
+.figma-progress {
+  background-color: #3c00c7;
+  animation: figma-progress 2s;
+}
+
+@keyframes figma-progress {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+.ph-progress {
+  background-color: #3c00c7;
+  animation: ph-progress 2s;
+}
+
+@keyframes ph-progress {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+.project {
+  padding-block: 5rem;
+}
+
+.project h1 {
+  font-size: 4.5rem;
+  font-weight: 400;
+}
+
+.project .weather {
+  padding: 5rem;
+}
+
+.project .weather .text {
+  padding-left: 2rem;
+  padding-right: 3rem;
+}
+
+.project .weather .text h2 {
+  font-size: 2.5rem;
+}
+
+.project .weather .text p {
+  font-size: 1rem;
+}
+
+.project .weather-two {
+  padding-inline: 5rem;
+  padding-block: 3rem;
+}
+
+.project .weather-two .text {
+  padding-right: 2rem;
+  padding-left: 3rem;
+  text-align: right;
+}
+
+.project .weather-two .text h2 {
+  font-size: 2.5rem;
+}
+
+.project .weather-two .text p {
+  font-size: 1rem;
+}
+
+.contact-me {
+  background-color: black;
+}
+
+.contact-me .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-me .container h1 {
+  font-size: 4.5rem;
+  font-weight: 400;
+}
+
+.contact-me .container h3 {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.contact-me .container .input-sec {
+  margin-top: 2rem;
+}
+
+.contact-me .container .input-sec h4 {
+  font-size: 1.3rem;
+  font-weight: 400;
+  margin-top: 1rem;
+}
+
+.contact-me .container .input-sec .massage {
+  padding-bottom: 3rem;
+  padding-right: 21rem;
+}
+
+.contact-me .container .input-sec ::placeholder {
+  color: rgb(0, 0, 0);
+  opacity: 1;
+}
+
+.contact-me .container .button {
+  padding-inline: 10rem;
+  padding-block: 0.2rem;
+  margin-bottom: 3rem;
+  margin-top: 1.5rem;
+  letter-spacing: 0.7rem;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .nav-bar {
+    height: auto;
+    width: auto;
+  }
+  .nav-bar .container {
+    margin: auto;
+  }
+  .nav-bar .nav {
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+  }
+  .nav-bar .nav ul {
+    flex-direction: column;
+    justify-content: center;
+    width: auto;
+    margin: 0;
+    padding: 0;
+  }
+  .nav-bar .nav ul a {
+    text-align: left;
+  }
+  .banner p {
+    font-size: 24px;
+  }
+  .banner h1 {
+    font-size: 36px;
+  }
+  .banner .social-media {
+    font-size: 28px;
+  }
+  .banner .button {
+    margin-top: 5px;
+    padding: 5px;
+    padding-inline: 15px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: #170143;
+    color: white;
+  }
+  .banner .image-sec {
+    width: 100vh;
+  }
+  .banner .image-sec .image {
+    width: 100%;
+    height: 100%;
+  }
+  .about-us {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+  }
+  .about-us img {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    object-fit: cover;
+  }
+  .about-us h1 {
+    font-size: 36px;
+    padding-left: 10px;
+  }
+  .about-us p {
+    font-size: 20px;
+    padding-left: 10px;
+  }
+}
+
+
+/*# sourceMappingURL=style.css.map */
